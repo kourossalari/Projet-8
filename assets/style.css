@@ -255,6 +255,14 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.modal-body img {
+	width: 100%;
+}
+
+img {
+	object-fit: cover;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
